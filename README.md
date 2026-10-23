@@ -1,26 +1,9 @@
-&#x20;TaskTracker - Fase 2
+# TaskTracker CLI 🚀
 
+Projeto desenvolvido no Bootcamp II com conteinerização e orquestração Docker.
 
+## 🚀 Como Executar o Projeto
 
-Aplicação CLI desenvolvida em Python para gestão de tarefas.
-
-
-
-&#x20;Estrutura do Projeto
-
-\- `src/main.py`: Código-fonte principal com menu e validações.
-
-\- `docs/planejamento\_logico.pdf`: Documento de planejamento da Fase 1.
-
-\- `.gitignore`: Regras para ignorar arquivos temporários.
-
-
-
-&#x20;Como Executar
-
-No terminal, execute:
-
+### 1. Construir a imagem Docker
 ```bash
-
-python src/main.py
-
+docker build -t tasktracker-app .
